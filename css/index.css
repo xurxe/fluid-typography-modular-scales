@@ -1,0 +1,43 @@
+/* ---- */
+/* FONT */
+/* ---- */
+
+.P {
+  font-size: 30px;
+  line-height: 1.5em;
+  margin-bottom: 2em;
+}
+
+.H1 {
+  font-size: 10vw;
+  font-weight: normal;
+}
+
+/* ---- */
+/* NAV */
+/* ---- */
+
+.Nav {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* ------ */
+/* HEADER */
+/* ------ */
+
+.Header {
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+/* ---- */
+/* MAIN */
+/* ---- */
+.Main {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+}

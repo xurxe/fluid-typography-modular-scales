@@ -1,0 +1,67 @@
+/* ---- */
+/* FONT */
+/* ---- */
+
+.P {
+  font-size: 20px;
+  line-height: 1.5em;
+  margin-bottom: 2em;
+}
+
+/* On narrow screens */
+.H1 {
+  font-size: 50px;
+  font-weight: normal;
+}
+
+/* On wide screens */
+@media only screen and (min-width: 900px) {
+  .H1 {
+    font-size: 150px;
+  }
+}
+
+/*
+To transition, we use the following formula:
+MINpx + (MAX - MIN) * (100vw - LOWERpx) / (UPPER - LOWER)
+where:
+MIN = min value
+MAX = max value
+LOWER = min-width
+UPPER = max-width
+change calc formulas manually if any parameters change!
+*/
+@media only screen and (min-width: 600px) and (max-width: 900px) {
+  .H1 {
+    font-size: calc(50px + (150 - 50) * (100vw - 600px) / (900 - 600));
+  }
+}
+
+/* ------ */
+/* HEADER */
+/* ------ */
+
+.Header {
+  padding-top: 2rem;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+/* ---- */
+/* MAIN */
+/* ---- */
+.Main {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+}
+
+/* ---- */
+/* NAV */
+/* ---- */
+
+.Nav {
+  padding-right: 2rem;
+  padding-left: 2rem;
+  padding-bottom: 2rem;
+}
